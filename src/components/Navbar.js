@@ -100,7 +100,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blog.AmanKumar.tech/"
+                href="https://aman2457.medium.com/"
                 target="_blank"
                 rel="noreferrer"
               >

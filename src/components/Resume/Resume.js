@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
 import Particle from '../Particle'
 import Resumecontent from './ResumeContent'
-import pdf from '../../Assets/Mohit_SDE_Resume.pdf'
+import pdf from '../../Assets/AmanKumar.pdf'
 import {AiOutlineDownload} from 'react-icons/ai'
 
 function Resume() {
@@ -21,45 +21,50 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Full Stack developer [Shree Themes]"
-              date="April 2021 - present"
+              title="Software Development Engineer 1( Medly Software Systems LLP)"
+              date="April 2022 - present"
               content={[
-                'Learned and experiment with React Native, Aws cloud services like S3, Amplify, App Sync, RDS, GraphQl and DynamoDb.',
-                'Build Full Social media and tinder type Application for LGBTQ+ people.',
+                'Implemented OKTA OAUTH 2.0 for authentication and authorization',
+                'Used event-driven architecture to trigger events and communi- cate between decoupled services',
+                'Debugged production issue and wrote an RCA for that.',
+                'Optimized error handling strategies for Kinesis event handlers.'
               ]}
             />
             <Resumecontent
-              title="Full Stack developer [Zujo]"
-              date="June 2020 - April 2021"
+              title="Intern Developer"
+              date="June 2021 - March 2022"
               content={[
-                'Learned and experiment with Aws cloud services like S3, EC2, DynamoDb with Typescript, Nodejs, Graphql, as a backend technology and React, RelayJs, Material UI and Next.js as a frontend technology.',
-                'Build Full Online Learning Plateform which has servel feature like live streaming with real time chat, uploading courses, videos, track watch time etc.',
+                'Developing Medly\'s public-facing RESTful APIs for Medly partners.',
+                'Built a Global error response processor responsible for handling an API\'s error responses.',
+                'Scripted local setup for a backend service using localstack, moun- tebank and Shell Scripts',
+                'Built reusable Github workfows that were used by various teams of the organization.'
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Technical Lead [Girlscript Surat]"
-              date="March 2020 - present"
+              title="Co-founder & Head of Event Management [Imagination to Innovation]"
+              date="Feb 2020 - Aug 2021"
               content={[
-                'As a Part of Community, we arrange lots of event,Like HackerRank contest,ReactJS Live session and lots of other stuff.',
+                'Led a team of 10-15 volunteer to organize a quiz competition with collaboration of \'Scholastic Asia\', a book publishing company in which 100-150 students participated',
+                'Organized an event named \'Ahem Codeashmi\',a coding competition, in which 225-250 students participated' 
               ]}
             />
             <Resumecontent
-              title="Microsoft Learn Student Ambassador"
+              title="Volunteer - LPU NSS"
               date="Sep 2019 - March 2021"
               content={[
-                'Under the Microsoft Learn Student Ambassadors programme, I started my cloud journey and learn basics of azure and i hosted several events Like hosting github session, Benifits of open source programme and and its community and much more.',
+                'Participated in various activites like Plantation Drive, Blood Donation Drive.',
+                'Core member of the initiatives like Feeding Bellies, Spreding Smile.'
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Computer Science and Engineering [R.N.G.P.I.T] "
-              date="2017 - 2021"
+              title="Computer Science and Engineering [L.P.U] "
+              date="2018 - 2022"
               content={[
-                `CGPA: 9.00/10 `,
-                'I was complete my bachelor degree fron R.N.G Patel Institute of Technology.',
+                'I have completed my bachelor degree fron Lovely Profession University, Jalandhar, Punjab.',
               ]}
             />
 
@@ -67,10 +72,12 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                `Top 40 of IngineousHunt contest winner and get 16GB pandrive.`,
-                `2nd rank in college elocution competition.`,
+                `Secured 3rd Rank in Talent Search Exami- nation Organized By ABVP.`,
+                `Achieved 5 Star Gold Badge in Python on Hacker rank`,
+                `Participated in Flipkart Grid Challenge Round 1.`
               ]}
             />
+            
           </Col>
         </Row>
         <Row style={{justifyContent: 'center', position: 'relative'}}>
