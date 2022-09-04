@@ -8,9 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{textAlign: 'justify'}}>
-            Hi Everyone, I am <span className="purple">Mohit Sojitra </span>
-            from <span className="purple"> Gujarat, India.</span>
-            <br />I am a Full Stack Javascript Developer.
+            Hi Everyone, I am <span className="purple">Aman Kumar </span>
+            from <span className="purple"> Bihar, India.</span>
+            <br />I am a Backend Developer building RESTful API's, Backend System/Services using Microservices architecture.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{marginBlockEnd: 0, color: 'rgb(155 126 172)'}}>
-            "The world rewards you for value provided, not time spent."{' '}
+            "Don't Use a Comment When You Can Use a Function or a Variable."{' '}
           </p>
-          <footer className="blockquote-footer">James clear</footer>
+          <footer className="blockquote-footer">Robert C. Martin</footer>
         </blockquote>
       </Card.Body>
     </Card>

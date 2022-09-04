@@ -46,7 +46,7 @@ function NavBar() {
               fontSize: '28px',
             }}
           >
-            Mohit Sojitra
+            Aman Kumar
           </p>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -100,7 +100,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://blog.mohitsojitra.tech/"
+                href="https://blog.AmanKumar.tech/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -110,7 +110,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MohitSojitra/portfolio"
+                href="https://github.com/AmanKumar/portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

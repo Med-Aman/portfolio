@@ -1,46 +1,47 @@
 import React from 'react'
 import {Col, Row} from 'react-bootstrap'
 import {CgCPlusPlus} from 'react-icons/cg'
+
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
+  DiJava,
   DiPython,
   DiGit,
+  DiHtml5,
+  DiDjango
 } from 'react-icons/di'
 import {
-  SiPytorch,
-  SiTensorflow,
-  SiFirebase,
   SiTypescript,
   SiAmazonaws,
-  SiGraphql,
+  SiKotlin,
+  SiAmazondynamodb,
+  SiPostgresql,
+  SiServerless,
+  SiGradle,
+  SiCypress,
+  SiJunit5,
+  SiSpring
 } from 'react-icons/si'
 
 function Techstack() {
   return (
     <Row style={{justifyContent: 'center', paddingBottom: '50px'}}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiKotlin />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
@@ -49,10 +50,28 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiServerless />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGradle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazondynamodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCypress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJunit5 />
       </Col>
     </Row>
   )
